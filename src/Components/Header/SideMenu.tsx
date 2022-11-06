@@ -1,15 +1,16 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { LeverBI } from "../assets/LeverBI";
+
 import ComboBox from "../ComboBox";
+import { Logo } from "../Icon/svg";
 import Svg from "../Svg";
 
 const SideMenu = () => {
   return (
     <Container>
       <SVGIconContainer>
-        <LeverBI width={124} height={30} fill="none" />
+        <Logo />
       </SVGIconContainer>
       <Group>
         <Title>서비스</Title>
